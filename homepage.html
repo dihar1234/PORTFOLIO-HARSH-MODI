@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Asap&family=Cantarell&family=Dancing+Script&family=Hind:wght@300&family=Kalam:wght@300&family=Vollkorn&display=swap" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<link rel="shortcut icon" href="homepage-favicon.png" type="PNG">
+<title>Home-Harsh Modi </title>
+    <style>
+        img{
+            width: 500px;
+            height: 500px;
+            position: relative;
+            border: 3px solid #000;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+
+        .modi{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            display:inline-block;
+            padding-right: 5px;
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-bottom: 5px;
+            color: white ;    
+            padding-top: 10px;
+            padding-left: 10px;
+            
+            padding-inline-start: 10px;
+            font-size: 20px;
+
+            
+        }
+
+        body{
+    margin: 10;
+    padding-top:10px ;
+    width: auto;
+    height: 100vh;
+    display:inline-block;
+    flex-direction: row;
+    justify-content: right;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+.modi {
+    
+    width:fit-content;
+    height: auto;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: rgba(121, 41, 41, 0.005);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+
+    margin: auto;
+}
+
+.modi:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.modi:active {
+    color: rgb(28, 20, 20)
+}
+
+.modi:active:after {
+    background: transparent;
+}
+
+.modi:hover:before {
+    opacity: 1;
+}
+
+.modi:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background: #111;
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.3)0%, rgba(0,0,0,0.8)100%),url("Homepage.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size:4em;
+  text-align:center;
+  height:900px;
+  width:700px;
+  display:block;
+  position:absolute;
+  color:rgb(57, 52, 162);
+  top:1100px;
+  bottom:10px;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+}
+#content{
+  padding-top: 650px;
+  width: fit-content;
+  height: fit-content;
+  color: aliceblue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}     
+#content p{
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration-color:lightgray;
+  border: 1px solid lightskyblue;
+  height: 220px;
+  width: 95%;
+  border-top-color: aquamarine;
+  border-bottom-color: aquamarine;
+  border-top-style: inset;
+  border-bottom-style: inset;
+  background-blend-mode: darken;
+  text-decoration:wavy
+  
+} 
+
+p {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: no-repeat;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.me {
+  width: 400px;
+  margin: 90px auto;
+}
+.me p,
+.me h1 {
+  letter-spacing: 3px;
+  text-align: center;
+}
+.me p {
+  font-weight: 200;
+}
+.me span {
+  font-weight: bold;
+}
+.social {
+  position: fixed;
+  top: 100px;
+}
+.social ul {
+  padding: 0px;
+  transform: translate(-270px, 0);
+}
+.social ul li {
+  display: block;
+  margin: 5px;
+  background: rgba(0, 0, 0, 0.36);
+  width: 300px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 0 30px 30px 0;
+  transition: all 1s;
+}
+.social ul li:hover {
+  transform: translate(110px, 0);
+  background:darkslateblue;
+}
+.social ul li:hover a {
+  color: white;
+}
+.social ul li:hover i {
+  color: #fff;
+  background:black;
+  transform: rotate(360deg);
+  transition: all 1s;
+}
+.social ul li i {
+  margin-left: 10px;
+  color: #000;
+  background: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  background: #ffffff;
+  transform: rotate(0deg);
+}
+.created{
+  text-align: center;
+  color:lightgray;
+
+}
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="modi">
+      <a href="homepage.html">HOME</a>
+      </div>
+    <div class="modi">
+      <a href="codingandlearning.html" target="_blank">CODING AND RESEARCH</a>
+    </div>
+    <div class="modi">
+      <a href="rewards.html" target="_blank">MY REWARDS </a>
+    </div>
+    <div class="modi">
+      <a href="about.html" target="_blank">ABOUT ME </a>
+    </div>
+    <img src="modi.jpeg" title="Harsh Modi ">
+    <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
+    <script>
+      // Get the video
+      var video = document.getElementById("myVideo");
+      
+      // Get the button
+      var btn = document.getElementById("myBtn");
+      
+      // Pause and play the video, and change the button text
+      function myFunction() {
+        if (video.paused) {
+          video.play();
+          btn.innerHTML = "Pause";
+        } else {
+          video.pause();
+          btn.innerHTML = "Play";
+        }
+      }
+      </script>
+    <script>
+      // function([string1, string2],target id,[color1,color2])    
+ consoleText(['HARSH MODI '], 'text',['skyblue','lightgrey','lightblue']);
+
+function consoleText(words, id, colors) {
+  if (colors === undefined) colors = ['#fff'];
+  var visible = true;
+  var con = document.getElementById('console');
+  var letterCount = 1;
+  var x = 1;
+  var waiting = false;
+  var target = document.getElementById(id)
+  target.setAttribute('style', 'color:' + colors[0])
+  window.setInterval(function() {
+
+    if (letterCount === 0 && waiting === false) {
+      waiting = true;
+      target.innerHTML = words[0].substring(0, letterCount)
+      window.setTimeout(function() {
+        var usedColor = colors.shift();
+        colors.push(usedColor);
+        var usedWord = words.shift();
+        words.push(usedWord);
+        x = 1;
+        target.setAttribute('style', 'color:' + colors[0])
+        letterCount += x;
+        waiting = false;
+      }, 1000)
+    } else if (letterCount === words[0].length + 1 && waiting === false) {
+      waiting = true;
+      window.setTimeout(function() {
+        x = -1;
+        letterCount += x;
+        waiting = false;
+      }, 1000)
+    } else if (waiting === false) {
+      target.innerHTML = words[0].substring(0, letterCount)
+      letterCount += x;
+    }
+  }, 120)
+  window.setInterval(function() {
+    if (visible === true) {
+      con.className = 'console-underscore hidden'
+      visible = false;
+
+    } else {
+      con.className = 'console-underscore'
+
+      visible = true;
+    }
+  }, 400)
+}
+    </script>
+    <div id="content">
+      <p>
+        <br>
+        Hello There ! My name is Harsh Modi and I am persuing Computer Science and Engineering with Cyber Security and Digital Forensics from Vellore Institute of Technology , Bhopal Campus. I reside in Ratlam . I had done some published research work in Cyber Security as well as made some live projects . I have a keen interest in coding and development site. I had taken my higher Secondary education from Shri Guru Tegh Bahadur Academy , Ratlam . Thanks for patiently reading and have a nice day !! 
+      </p>
+    </div>
+    <div class="contactus">
+      <table>
+        <tr>
+          <td></td>
+        </tr>
+      </table>
+    </div>
+    <div class="created"><h3>Created By<h3></div>
+    <div class="created"><h1> HARSH MODI</h1> </div>
+    <nav class="social">
+  
+ 
+      <ul>
+          <li><a href="https://twitter.com/HarshMo70889099">Twitter <i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://github.com/dihar1234" target="_blank">Github <i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/harsh-modi-2aa297206/" target="_blank">Linkedin <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100068060592699" target="_blank">Facebook <i class="fa fa-facebook"></i></a></li>
+
+          </ul>
+  </nav>
+  <div class="created">Copyright &copy; 2022</div> 
+   
+    
+
+
+      
+
+
+    
+</body>
+
+
+</html>
