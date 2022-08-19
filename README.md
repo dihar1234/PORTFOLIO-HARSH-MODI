@@ -5,3 +5,6 @@ This is a  simple portfolio which is created by me using HTML, CSS , JS and Boot
 ![button-on-click](https://user
 ![rewards](https://user-images.githubusercontent.com/107484818/185682403-b457f043-2be5-44d3-a30d-91752d2374ea.png)
 -images.githubusercontent.com/107484818/185682397-fb378cce-73c2-41e5-898d-24c6e005c4c7.png)
+![opening navigation bar](https://user-images.githubusercontent.com/107484818/185682707-3492fd46-f820-4e63-a58d-1349cabf7a77.png)
+![button-on-click](https://user-images.githubusercontent.com/107484818/185682725-180b672d-cf20-4671-810f-7608cb868085.png)
+
